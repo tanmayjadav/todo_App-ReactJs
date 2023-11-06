@@ -2,9 +2,9 @@ import {BrowserRouter as Router,Route,Routes} from "react-router-dom"
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import toast, { Toaster } from "react-hot-toast";
-import Register from "./pages/register";
-import Profile from "./pages/profile";
-import Login from "./pages/login";
+import Register from "./pages/Register";
+import Profile from "./pages/Profile";
+import Login from "./pages/Login";
 import { useContext, useEffect } from "react";
 import axios from "axios";
 import { Context, server } from "./main";
